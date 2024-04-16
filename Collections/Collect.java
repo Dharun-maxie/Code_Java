@@ -22,17 +22,17 @@ public class Collect
 
         while(l1.hasNext())
         {
-            System.out.print(STR."\{l1.next()} ");
+            System.out.print(l1.next()+" ");
         }
         System.out.println();
         while(l2.hasNext())
         {
-            System.out.print(STR."\{l2.next()} ");
+            System.out.print(l2.next()+" ");
         }
         System.out.println();
         while(l3.hasNext())
         {
-            System.out.print(STR."\{l3.next()} ");
+            System.out.print(l3.next()+" ");
         }
     }
 }

@@ -9,7 +9,7 @@ public class OneToN {
     private static void PrintTillN(int n,int i) {
         if(i > n)
             return;
-        System.out.print(STR."\{i} ");
+        System.out.print(i+" ");
         PrintTillN(n,i+1);
     }
 }

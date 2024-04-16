@@ -14,7 +14,7 @@ public class PermutationOfString {
     private static void Perm(String up, String p) {
         if(up.isEmpty())
         {
-            System.out.print(STR."\{p} ");
+            System.out.print(p+" ");
             return;
         }
         for (int i = 0; i <= p.length(); i++) {

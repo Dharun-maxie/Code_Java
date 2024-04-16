@@ -13,7 +13,7 @@ public class StringManipulation {
         if( s.length() == 1 && s.charAt(0) != target)
             return s;
         if(s.charAt(0) == target)
-            return STR."\{RecDeletion(s.substring(1), target)}";
+            return RecDeletion(s.substring(1), target);
         return s.charAt(0)+RecDeletion(s.substring(1), target);
     }
 }
