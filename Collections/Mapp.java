@@ -12,7 +12,7 @@ class Mapp
         }
         for(int i : map.keySet())
         {
-            System.out.println(STR."Key : \{i}, Value : \{map.get(i)}");
+            System.out.println("Key : "+i+", Value : "+map.get(i));
         }
     }
 }
